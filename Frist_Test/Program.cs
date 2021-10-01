@@ -26,7 +26,7 @@ options.BrowserExecutableLocation = @"C:\Program Files\Mozilla Firefox\firefox.e
 IWebDriver driver = new FirefoxDriver(options);
 
 driver.Navigate().GoToUrl("https://www.google.com");
-driver.FindElement(By.Name("q")).SendKeys("Fleek It solutions"+ Keys.Return);
+driver.FindElement(By.Name("q")).SendKeys("Test"+ Keys.Return);
 Thread.Sleep(2000);
 driver.Quit();
     
